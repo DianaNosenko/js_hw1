@@ -70,7 +70,7 @@ console.log('Задача 5');
   }
   console.log(`Произведение чисел от 5 до ${lim2} = ${result}`);
 
-циклом for
+//циклом for
 for (lim1; lim1 <= lim2; lim1++) {
     result = result * lim1;   
 }

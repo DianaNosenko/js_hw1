@@ -70,9 +70,19 @@ console.log('Задача 5');
   }
   console.log(`Произведение чисел от 5 до ${lim2} = ${result}`);
 
-// циклом for
-// for (lim1; lim1 <= lim2; lim1++) {
-//     result = result * lim1;   
-// }
-// console.log(`Произведение чисел от 5 до ${lim2} = ${result}`);
+циклом for
+for (lim1; lim1 <= lim2; lim1++) {
+    result = result * lim1;   
+}
+console.log(`Произведение чисел от 5 до ${lim2} = ${result}`);
 
+// 6. Задание 5 оформите функцией
+console.log('Задача 6');
+function calcSumm(numOne = 5, numTwo = 12) {
+    let res = 1;
+    for (numOne; numOne <= numTwo; numOne++) {
+             res = res * numOne;   
+}
+return res;
+}
+console.log(calcSumm());
